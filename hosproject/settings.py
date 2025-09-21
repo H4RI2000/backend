@@ -130,7 +130,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://your-frontend-render-url"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://frontend-miux.onrender.com"]
 CORS_ALLOW_ALL_ORIGINS = True
 
 # DRF and JWT settings
