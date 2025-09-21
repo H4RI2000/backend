@@ -13,7 +13,7 @@ from hosapp.serializer import AppointmentSerializer
 class AppointmentListCreateView(generics.ListCreateAPIView):
     queryset = Appointment.objects.all().order_by("-preferred_date", "-preferred_time")
     serializer_class = AppointmentSerializer
-    permission_classes = [AllowAny] 
+    permission_classes = [] 
 
 
 # Get all appointments (GET)
